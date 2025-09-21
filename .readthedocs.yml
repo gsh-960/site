@@ -1,14 +1,15 @@
+# .readthedocs.yml
 # Read the Docs configuration file for MkDocs projects
 # See https://docs.readthedocs.io/en/stable/config-file/v2.html for details
 
 # Required
 version: 2
 
-# Set the version of Python and other tools you might need
+# Build configuration
 build:
-  os: ubuntu-24.04
+  os: ubuntu-22.04
   tools:
-    python: "3.12"
+    python: "3.11"  # 必须指定具体的 Python 版本
 
 mkdocs:
   configuration: mkdocs.yml
