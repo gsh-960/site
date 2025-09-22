@@ -10,7 +10,7 @@ comments: false
 
 
 
-<center><font class="custom-font ml3">海天生存指北</font></center>
+<center><font class="custom-font ml3">牛马生活实录</font></center>
 <style>
     .custom-font {
     font-size: 31px; /* 默认字体大小为8px */
@@ -46,19 +46,9 @@ comments: false
     }
 </style>
 
->不同于市面上过时的MkDocs教程，本站提供了最详细最便捷最前沿的MkDocs中文文字/视频教程，与[官方发布](https://squidfunk.github.io/mkdocs-material/changelog/)的教程版本同步。包含了MkDocs的安装、配置、主题美化、插件使用等内容。无论你是初学者还是有经验的用户，都能在这里找到你需要的帮助。我们还提供了示例和实用的技巧，帮助你更好地使用MkDocs。𝓳𝓾𝓼𝓽 𝓮𝓷𝓳𝓸𝔂 𝓲𝓽～
+>牛马会记录哪里有好吃的草𝓳𝓾𝓼𝓽 𝓮𝓷𝓳𝓸𝔂 𝓲𝓽～
 
-***  
-
-<!-- <strong>推荐文章:material-book:</strong>
-
-  - [利用Mkdocs部署静态网页至GitHub pages](blog/Mkdocs/mkdocs1.md)
-  - [Mkdocs部署配置说明(mkdocs.yml)](blog/Mkdocs/mkdocs2.md)
-  - [如何给MKdocs添加友链](blog/websitebeauty/linktech.md)
-  - [网站添加Mkdocs博客](blog/Mkdocs/mkdocsblog.md)
-  - [Blogger](blog/index.md) -->
-
-
+***
 
 <div class="grid cards" markdown>
 
@@ -78,8 +68,8 @@ comments: false
 
 
 
-[^Knowing-that-loving-you-has-no-ending]:太阳总是能温暖向日葵  
-[^see-how-much-I-love-you]:All-problems-in-computer-science-can-be-solved-by-another-level-of-indirection
+[^1]:每天都是一个小小的生命周期；每一次醒来、每一次起床都是一次小小的诞生。  
+[^2]:用我一生换你十年天真无邪；依旧怀揣
 
 
 <style>
