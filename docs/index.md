@@ -109,17 +109,6 @@ comments: false
 
 >不同于市面上过时的MkDocs教程，本站提供了最详细最便捷最前沿的MkDocs中文文字/视频教程，与[官方发布](https://squidfunk.github.io/mkdocs-material/changelog/)的教程版本同步。包含了MkDocs的安装、配置、主题美化、插件使用等内容。无论你是初学者还是有经验的用户，都能在这里找到你需要的帮助。我们还提供了示例和实用的技巧，帮助你更好地使用MkDocs。𝓳𝓾𝓼𝓽 𝓮𝓷𝓳𝓸𝔂 𝓲𝓽～
 
-<!-- - 基于Material for MkDocs美化
-- 简洁美观，功能多元化
-- 简单易上手，小白配置
-- 𝕙𝕒𝕧𝕖 𝕒 𝕘𝕠𝕠𝕕 𝕥𝕚𝕞𝕖 ! -->
-
-<!-- 视频教程(1) 联系我(2)
-{ .annotate }
-
-1. 点击右下角[:simple-bilibili:](https://space.bilibili.com/1407028951/lists/4566631?type=series)图标查看视频教程.
-2. TEL:18939533255(微信号) -->
-
 ***  
 
 <!-- <strong>推荐文章:material-book:</strong>
@@ -162,37 +151,6 @@ comments: false
 [^Knowing-that-loving-you-has-no-ending]:太阳总是能温暖向日葵  
 [^see-how-much-I-love-you]:All-problems-in-computer-science-can-be-solved-by-another-level-of-indirection
 
-   <!-- <body>
-        <font color="#B9B9B9">
-        <p style="text-align: center; ">
-                <span>本站已经运行</span>
-                <span id='box1'></span>
-    </p>
-      <div id="box1"></div>
-      <script>
-        function timingTime(){
-          let start = '2023-10-14 00:00:00'
-          let startTime = new Date(start).getTime()
-          let currentTime = new Date().getTime()
-          let difference = currentTime - startTime
-          let m =  Math.floor(difference / (1000))
-          let mm = m % 60  // 秒
-          let f = Math.floor(m / 60)
-          let ff = f % 60 // 分钟
-          let s = Math.floor(f/ 60) // 小时
-          let ss = s % 24
-          let day = Math.floor(s  / 24 ) // 天数
-          return day + "天" + ss + "时" + ff + "分" + mm +'秒'
-        }
-        setInterval(()=>{
-          document.getElementById('box1').innerHTML = timingTime()
-        },1000)
-      </script>
-      </font>
-    </body> -->
-
-
-<!-- <script src="//code.tidio.co/6jmawe9m5wy4ahvlhub2riyrnujz7xxi.js" async></script> -->
 
 <style>
 body {
@@ -214,8 +172,7 @@ body::before {
       50% 50% / var(--size) var(--size),
     linear-gradient(var(--line) 1px, transparent 1px var(--size)) 50% 50% /
       var(--size) var(--size);
-  -webkit-mask: linear-gradient(-20deg, transparent 50%, white);
-          mask: linear-gradient(-20deg, transparent 50%, white);
+    mask: linear-gradient(-20deg, transparent 50%, white);
   top: 0;
   transform-style: flat;
   pointer-events: none;
@@ -229,18 +186,6 @@ body::before {
   }
 }
 </style>
-
-<!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2327435979273742"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-2327435979273742"
-     data-ad-slot="3702206121"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script> -->
 <head> 
   <!-- Umami Analytics -->
   <script defer src="https://cloud.umami.is/script.js" data-website-id="061b4dea-9b7b-4ffa-9071-74cde70f3dfb"></script>
