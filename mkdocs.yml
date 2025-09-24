@@ -58,6 +58,9 @@ repo_name: gaosh # 右上角的名字
 
 # [Navigtion]
 nav:
+  - Home: index.md
+  - 随笔:
+      - 2025国庆计划: 2025/20251001plan.md
 
 extra:
   alternate:
