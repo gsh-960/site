@@ -46,7 +46,7 @@ comments: false
     }
 </style>
 
->牛马会记录哪里有好吃的草𝓳𝓾𝓼𝓽 𝓮𝓷𝓳𝓸𝔂 𝓲𝓽～
+>𝓳𝓾𝓼𝓽 𝓮𝓷𝓳𝓸𝔂 𝓲𝓽～
 
 ***
 
@@ -58,20 +58,38 @@ comments: false
 
     - [像老乡鸡一样做饭](https://cooklikehoc.soilzhu.su/){target=“_blank”}(外链)
 
-
-
 -   :simple-aboutdotme:{ .lg .middle } __关于__
 
     ---
-
+    -   <div id="restaurant-picker" style="text-align: center; padding: 10px;"><button onclick="pickRestaurant()" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-weight: bold;">今天吃什么</button><div id="result" style="margin-top: 15px; font-size: 18px; min-height: 50px;"></div></div>
 </div>
 
+<script>    
+const restaurants = [
+        "食堂",
+        "穷鬼小炒",
+        "烧鸭",
+        "汤粉",
+        "重庆小面",
+        "木桶饭"
+    ];
 
+    function pickRestaurant() {
+        if (restaurants.length === 0) {
+            document.getElementById("result").innerHTML = "餐厅列表为空!";
+            return;
+        }
 
-[^1]:每天都是一个小小的生命周期；每一次醒来、每一次起床都是一次小小的诞生。  
-[^2]:用我一生换你十年天真无邪；依旧怀揣
+        // 随机选择一家餐厅
+        const chosen = restaurants[Math.floor(Math.random() * restaurants.length)];
 
+        // 生成推荐指数 (0-100的随机数)
+        const recommendationIndex = Math.floor(Math.random() * 101);
 
+        // 显示结果
+        document.getElementById("result").innerHTML = `今天就吃 <strong>${chosen}</strong> 吧！<br>推荐指数: ${recommendationIndex}%`;
+    }
+</script>
 <style>
 body {
   position: relative; /* 确保 body 元素的 position 属性为非静态值 */
