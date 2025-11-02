@@ -62,6 +62,9 @@ nav:
   - 随笔:
       - 2025国庆计划: 2025/20251001plan.md
       - 盘点下喜欢的音乐: 2025/miuzic.md
+  - AI:
+      - AI的发展历史: note/AI/AI.md
+      - 对话,参数与状态管理: note/AI/llm_learning.md
 
 extra:
   alternate:
