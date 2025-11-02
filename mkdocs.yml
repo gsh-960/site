@@ -4,6 +4,7 @@ site_author: gaosh
 #[UI]
 theme:
   name: material
+  font: false
   # logo: assets/favicon.png #左上角logo，可插入图片链接
   palette:
     # Light Mode
@@ -51,12 +52,19 @@ theme:
     previous: fontawesome/solid/angle-left
     # top: fontawesome/solid/angles-up
     alternate: fontawesome/solid/language
-edit_uri: edit/main/docs # 编辑按钮跳转的链接
-repo_url: https://github.com/Wcowin/Mkdocs-Wcowin # 右上角点击跳转的链接
+edit_uri: edit/master/docs # 编辑按钮跳转的链接
+repo_url: https://github.com/gsh-960/site # 右上角点击跳转的链接
 repo_name: gaosh # 右上角的名字
 
 # [Navigtion]
 nav:
+  - Home: index.md
+  - 随笔:
+      - 2025国庆计划: 2025/20251001plan.md
+      - 盘点下喜欢的音乐: 2025/miuzic.md
+  - AI:
+      - AI的发展历史: note/AI/AI.md
+      - 对话,参数与状态管理: note/AI/llm_learning.md
 
 extra:
   alternate:
@@ -68,17 +76,6 @@ plugins:
       lang:
         - zh
         - en
-  - blog: #博客配置
-      post_date_format: full #时间
-      draft: true
-      draft_if_future_date: true #自动将具有未来日期的帖子标记为草稿
-      post_readtime: true
-      post_readtime_words_per_minute: 265 #计算帖子的阅读时间时读者每分钟预计阅读的字数
-      post_url_format: "{date}/{slug}"
-
-      pagination_url_format: "page/{page}"
-      authors_file: "{blog}/.authors.yml" #作者信息
-  - tags
 
 markdown_extensions: #详见https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/ 和 https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/
   - abbr
