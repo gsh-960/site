@@ -65,6 +65,12 @@ nav:
   - AI:
       - AI的发展历史: note/AI/AI.md
       - 对话,参数与状态管理: note/AI/llm_learning.md
+      - 实验:
+          - 实验1: note/AI/lab1.md
+          - 实验2: note/AI/lab2.md
+          - 实验3: note/AI/lab3.md
+  - 工具:
+      - 利用cnb快速搭建开发环境: note/tools/cnb.md
 
 extra:
   alternate:
