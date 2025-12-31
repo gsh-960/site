@@ -71,6 +71,8 @@ nav:
           - 实验3 记忆系统的内容检索: note/AI/lab3.md
   - 工具:
       - 利用cnb快速搭建开发环境: note/tools/cnb.md
+  - 我:
+      - 六周年纪念: note/me/六周年纪念.md
 
 extra:
   alternate:
